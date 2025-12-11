@@ -1,9 +1,9 @@
 import { Router } from "express";
-import contatosRouter from "./contatos.js";
+import contactsRouter from "./contacts.js";
 
 const router = Router()
 
-router.use("/contatos", contatosRouter)
+router.use("/contatos", contactsRouter)
 
 
 
